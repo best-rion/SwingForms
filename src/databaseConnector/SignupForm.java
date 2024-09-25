@@ -53,7 +53,7 @@ public class SignupForm
 			
 			
 			// 1. Get a connection to database
-			Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo4jdbc", "newUser", "%AliHasan2012");
+			Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo4jdbc", "newUser", "%AliHasan2012");// I know I am giving away my password. But I am too lazy
 			
 			// 2. Create a statement
 			Statement myStmt = myConn.createStatement();
